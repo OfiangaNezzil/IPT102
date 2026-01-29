@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundrySystem.Framework", "LaundrySystem.Framework\LaundrySystem.Framework.csproj", "{2C8153AC-E8FE-4CF4-8870-6C5558E902F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundrySystem.Domain", "LaundrySystem.Domain\LaundrySystem.Domain.csproj", "{208AAAB1-87F8-48E9-947C-C7451B697854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryWPF", "LaundryWPF\LaundryWPF.csproj", "{239791CB-387B-444F-93DB-FEED8090CD10}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LaundryDB", "LaundryDB\LaundryDB.sqlproj", "{C66DB64E-1157-49C3-8EAF-8EC619B47482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C8153AC-E8FE-4CF4-8870-6C5558E902F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8153AC-E8FE-4CF4-8870-6C5558E902F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8153AC-E8FE-4CF4-8870-6C5558E902F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8153AC-E8FE-4CF4-8870-6C5558E902F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208AAAB1-87F8-48E9-947C-C7451B697854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208AAAB1-87F8-48E9-947C-C7451B697854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208AAAB1-87F8-48E9-947C-C7451B697854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208AAAB1-87F8-48E9-947C-C7451B697854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239791CB-387B-444F-93DB-FEED8090CD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239791CB-387B-444F-93DB-FEED8090CD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239791CB-387B-444F-93DB-FEED8090CD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239791CB-387B-444F-93DB-FEED8090CD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66DB64E-1157-49C3-8EAF-8EC619B47482}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21D51969-E6D4-4964-A935-58F989A5B819}
+	EndGlobalSection
+EndGlobal
