@@ -1,0 +1,6 @@
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\bin\Debug\LaundryDB.dacpac
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\bin\Debug\LaundryDB.dll
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\bin\Debug\LaundryDB.pdb
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\obj\Debug\LaundryDB.sqlproj.AssemblyReference.cache
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\obj\Debug\LaundryDB.dll
+C:\Users\nisil\Desktop\Nisil\IPT102\IPT102Ofianga\LaundryDB\obj\Debug\LaundryDB.pdb
