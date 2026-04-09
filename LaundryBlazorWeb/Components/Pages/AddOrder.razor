@@ -1,0 +1,85 @@
+﻿@page "/add_order"
+@rendermode InteractiveServer
+@using Domain.Models
+@using Framework.Services
+@using Microsoft.AspNetCore.Authorization
+@inject ILaundryService LaundryService
+@inject NavigationManager Navigation
+@attribute [Authorize]
+
+<h3>Add Order</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}
+
+<div class="mb-2">
+    <label>Order ID</label>
+    <InputText class="form-control" @bind-Value="order.OrderId" />
+</div>
+
+<div class="mb-2">
+    <label>Customer Name</label>
+    <InputText class="form-control" @bind-Value="order.CustomerName" />
+</div>
+
+<div class="mb-2">
+    <label>Contact Number</label>
+    <InputText class="form-control" @bind-Value="order.ContactNumber" />
+</div>
+
+<div class="mb-2">
+    <label>Service Type</label>
+    <InputText class="form-control" @bind-Value="order.ServiceType" />
+</div>
+
+<div class="mb-2">
+    <label>Weight (kg)</label>
+    <InputNumber class="form-control" @bind-Value="order.WeightInKg" />
+</div>
+
+<div class="mb-3">
+    <label>Total Price</label>
+    <InputNumber class="form-control" @bind-Value="order.TotalPrice" />
+</div>
+
+<button class="btn btn-primary" @onclick="SaveAsync" disabled="@isSaving">
+    @(isSaving ? "Saving..." : "Save")
+</button>
+<button class="btn btn-secondary ms-2" @onclick="Back">Back</button>
+
+@code {
+    LaundryOrder order = new();
+    bool isSaving = false;
+    string? errorMessage;
+
+    async Task SaveAsync()
+    {
+        if (string.IsNullOrWhiteSpace(order.OrderId) ||
+            string.IsNullOrWhiteSpace(order.CustomerName) ||
+            string.IsNullOrWhiteSpace(order.ContactNumber))
+        {
+            errorMessage = "Required fields are missing.";
+            return;
+        }
+
+        isSaving = true;
+
+        try
+        {
+            await Task.Run(() => LaundryService.CreateOrder(order));
+            Navigation.NavigateTo("/orders", true);
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
+        finally
+        {
+            isSaving = false;
+        }
+    }
+
+    void Back() => Navigation.NavigateTo("/orders");
+}

@@ -1,0 +1,66 @@
+﻿@page "/edit_order/{OrderId}"
+@rendermode InteractiveServer
+@using Domain.Models
+@using Framework.Services
+@using Microsoft.AspNetCore.Authorization
+@inject ILaundryService LaundryService
+@inject NavigationManager Navigation
+@attribute [Authorize]
+
+<h3>Edit Order</h3>
+
+@if (order == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="order" OnValidSubmit="SaveAsync">
+        <div class="mb-2">
+            <label>Customer Name</label>
+            <InputText class="form-control" @bind-Value="order.CustomerName" />
+        </div>
+
+        <div class="mb-2">
+            <label>Contact Number</label>
+            <InputText class="form-control" @bind-Value="order.ContactNumber" />
+        </div>
+
+        <div class="mb-2">
+            <label>Service Type</label>
+            <InputText class="form-control" @bind-Value="order.ServiceType" />
+        </div>
+
+        <div class="mb-2">
+            <label>Weight (kg)</label>
+            <InputNumber class="form-control" @bind-Value="order.WeightInKg" />
+        </div>
+
+        <div class="mb-3">
+            <label>Total Price</label>
+            <InputNumber class="form-control" @bind-Value="order.TotalPrice" />
+        </div>
+
+        <button class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary ms-2" @onclick="Back">Back</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public string OrderId { get; set; }
+    LaundryOrder? order;
+
+    protected override void OnInitialized()
+    {
+        order = LaundryService.GetOrders()
+            .FirstOrDefault(x => x.OrderId == OrderId);
+    }
+
+    async Task SaveAsync()
+    {
+        await Task.Run(() => LaundryService.EditOrder(order));
+        Navigation.NavigateTo("/orders", true);
+    }
+
+    void Back() => Navigation.NavigateTo("/orders");
+}

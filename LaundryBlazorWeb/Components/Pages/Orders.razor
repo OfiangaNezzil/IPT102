@@ -1,0 +1,80 @@
+﻿@page "/orders"
+@rendermode InteractiveServer
+@using Domain.Models
+@using Framework.Services
+@using Microsoft.AspNetCore.Authorization
+@inject ILaundryService LaundryService
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@attribute [Authorize]
+
+<h3>Laundry Orders</h3>
+
+<div class="mb-2">
+    <input class="form-control d-inline-block w-50" @bind="searchText" placeholder="Search..." />
+    <button class="btn btn-sm btn-primary ms-2" @onclick="SearchAsync">Search</button>
+    <a class="btn btn-sm btn-success ms-2" href="/add_order">Add Order</a>
+    <button class="btn btn-sm btn-info ms-2" @onclick="LoadOrdersAsync">Refresh</button>
+</div>
+
+<p>Total Orders: @orders.Count</p>
+
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Service</th>
+            <th>Weight (kg)</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in orders)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.CustomerName</td>
+                <td>@order.ContactNumber</td>
+                <td>@order.ServiceType</td>
+                <td>@order.WeightInKg</td>
+                <td>@order.TotalPrice</td>
+                <td>
+                    <a class="btn btn-sm btn-primary me-1" href="@($"/edit_order/{order.OrderId}")">Edit</a>
+                    <button class="btn btn-sm btn-danger" @onclick="() => ConfirmDelete(order.OrderId)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<LaundryOrder> orders = new();
+    string searchText = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadOrdersAsync();
+    }
+
+    async Task LoadOrdersAsync()
+    {
+        orders = (await Task.Run(() => LaundryService.GetOrders())).ToList();
+    }
+
+    async Task SearchAsync()
+    {
+        orders = (await Task.Run(() => LaundryService.SearchOrders(searchText))).ToList();
+    }
+
+    async Task ConfirmDelete(string id)
+    {
+        var ok = await JS.InvokeAsync<bool>("confirm", $"Delete order {id}?");
+        if (!ok) return;
+
+        await Task.Run(() => LaundryService.RemoveOrder(id));
+        await LoadOrdersAsync();
+    }
+}
