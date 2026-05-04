@@ -4,3 +4,9 @@ D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Data\bin\Debug\Data.pdb
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Data\obj\Debug\Data.sqlproj.AssemblyReference.cache
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Data\obj\Debug\Data.dll
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Data\obj\Debug\Data.pdb
+C:\Users\nisil\Source\Repos\IPT102\Data\bin\Debug\Data.dacpac
+C:\Users\nisil\Source\Repos\IPT102\Data\bin\Debug\Data.dll
+C:\Users\nisil\Source\Repos\IPT102\Data\bin\Debug\Data.pdb
+C:\Users\nisil\Source\Repos\IPT102\Data\obj\Debug\Data.sqlproj.AssemblyReference.cache
+C:\Users\nisil\Source\Repos\IPT102\Data\obj\Debug\Data.dll
+C:\Users\nisil\Source\Repos\IPT102\Data\obj\Debug\Data.pdb

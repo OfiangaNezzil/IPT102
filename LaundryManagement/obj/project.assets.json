@@ -2096,23 +2096,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\nisil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\LaundryManagement\\LaundryManagement.csproj",
+      "projectUniqueName": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\LaundryManagement.csproj",
       "projectName": "LaundryManagement",
-      "projectPath": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\LaundryManagement\\LaundryManagement.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\LaundryManagement\\obj\\",
+      "projectPath": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\LaundryManagement.csproj",
+      "packagesPath": "C:\\Users\\nisil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nisil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2128,11 +2128,11 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\Domain\\Domain.csproj"
+            "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Domain\\Domain.csproj"
             },
-            "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\Framework\\Framework.csproj": {
-              "projectPath": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\Framework\\Framework.csproj"
+            "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Framework.csproj"
             }
           }
         }
@@ -2189,7 +2189,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

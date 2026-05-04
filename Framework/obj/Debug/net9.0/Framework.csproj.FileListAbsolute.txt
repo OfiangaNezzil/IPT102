@@ -13,3 +13,35 @@ D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Framework\obj\Debug\net9.0\Framewo
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Framework\obj\Debug\net9.0\refint\Framework.dll
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Framework\obj\Debug\net9.0\Framework.pdb
 D:\Mga sawi sa pag ibig\OfiangaSolutionIPT102\Framework\obj\Debug\net9.0\ref\Framework.dll
+C:\Users\nisil\Source\Repos\IPT102\Framework\bin\Debug\net9.0\Framework.deps.json
+C:\Users\nisil\Source\Repos\IPT102\Framework\bin\Debug\net9.0\Framework.dll
+C:\Users\nisil\Source\Repos\IPT102\Framework\bin\Debug\net9.0\Framework.pdb
+C:\Users\nisil\Source\Repos\IPT102\Framework\bin\Debug\net9.0\Domain.dll
+C:\Users\nisil\Source\Repos\IPT102\Framework\bin\Debug\net9.0\Domain.pdb
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.AssemblyReference.cache
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.AssemblyInfoInputs.cache
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.AssemblyInfo.cs
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.CoreCompileInputs.cache
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.sourcelink.json
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.Up2Date
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.dll
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\refint\Framework.dll
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\Framework.pdb
+C:\Users\nisil\Source\Repos\IPT102\Framework\obj\Debug\net9.0\ref\Framework.dll
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\bin\Debug\net9.0\Framework.deps.json
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\bin\Debug\net9.0\Framework.dll
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\bin\Debug\net9.0\Framework.pdb
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\bin\Debug\net9.0\Domain.dll
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\bin\Debug\net9.0\Domain.pdb
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.AssemblyReference.cache
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.AssemblyInfoInputs.cache
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.AssemblyInfo.cs
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.CoreCompileInputs.cache
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.sourcelink.json
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.csproj.Up2Date
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.dll
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\refint\Framework.dll
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\Framework.pdb
+C:\Users\nisil\Desktop\IPT\IPT102\Framework\obj\Debug\net9.0\ref\Framework.dll
