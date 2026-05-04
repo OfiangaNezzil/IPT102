@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1E7E333-C7C7-4172-8033-345DCAC5CD5B}|Framework\\Framework.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\framework\\services\\laundryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E7E333-C7C7-4172-8033-345DCAC5CD5B}|Framework\\Framework.csproj|solutionrelative:framework\\services\\laundryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\views\\homelaundryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\views\\homelaundryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\views\\addlaundryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\views\\addlaundryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\viewmodels\\addlaundryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\viewmodels\\addlaundryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundrymanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB09946B-15BA-4B82-9F3F-83464DCE22DC}|LaundryManagement\\LaundryManagement.csproj|solutionrelative:laundrymanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E7E333-C7C7-4172-8033-345DCAC5CD5B}|Framework\\Framework.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\framework\\services\\ilaundryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E7E333-C7C7-4172-8033-345DCAC5CD5B}|Framework\\Framework.csproj|solutionrelative:framework\\services\\ilaundryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B4D4CE8-7384-4F16-898D-266785F85319}|LaundryBlazorWeb\\LaundryBlazorWeb.csproj|c:\\users\\nisil\\desktop\\ipt\\ipt102\\laundryblazorweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5B4D4CE8-7384-4F16-898D-266785F85319}|LaundryBlazorWeb\\LaundryBlazorWeb.csproj|solutionrelative:laundryblazorweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -41,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,7 +85,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddLaundryView.xaml",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\AddLaundryView.xaml",
+              "RelativeDocumentMoniker": "LaundryManagement\\Views\\AddLaundryView.xaml",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\AddLaundryView.xaml",
+              "RelativeToolTip": "LaundryManagement\\Views\\AddLaundryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T06:04:19.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LaundryManagement\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "LaundryManagement\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T06:03:52.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeLaundryView.xaml",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\HomeLaundryView.xaml",
+              "RelativeDocumentMoniker": "LaundryManagement\\Views\\HomeLaundryView.xaml",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\Views\\HomeLaundryView.xaml",
+              "RelativeToolTip": "LaundryManagement\\Views\\HomeLaundryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T06:03:32.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddLaundryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\ViewModels\\AddLaundryViewModel.cs",
+              "RelativeDocumentMoniker": "LaundryManagement\\ViewModels\\AddLaundryViewModel.cs",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\ViewModels\\AddLaundryViewModel.cs",
+              "RelativeToolTip": "LaundryManagement\\ViewModels\\AddLaundryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T06:03:29.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LaundryManagement\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\App.xaml.cs",
+              "RelativeToolTip": "LaundryManagement\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T05:10:09.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LaundryService.cs",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Services\\LaundryService.cs",
+              "RelativeDocumentMoniker": "Framework\\Services\\LaundryService.cs",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Services\\LaundryService.cs",
+              "RelativeToolTip": "Framework\\Services\\LaundryService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T05:07:42.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\App.xaml",
+              "RelativeDocumentMoniker": "LaundryManagement\\App.xaml",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryManagement\\App.xaml",
+              "RelativeToolTip": "LaundryManagement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T06:06:56.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILaundryService.cs",
+              "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Services\\ILaundryService.cs",
+              "RelativeDocumentMoniker": "Framework\\Services\\ILaundryService.cs",
+              "ToolTip": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Framework\\Services\\ILaundryService.cs",
+              "RelativeToolTip": "Framework\\Services\\ILaundryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T05:07:40.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\appsettings.json",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\appsettings.json",
@@ -61,12 +192,11 @@
               "RelativeToolTip": "LaundryBlazorWeb\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T11:47:35.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T11:47:35.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\Program.cs",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\Program.cs",
@@ -78,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "LaundryOrder.cs",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\Domain\\Models\\LaundryOrder.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\LaundryOrder.cs",
@@ -90,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\Components\\Layout\\NavMenu.razor",
@@ -102,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "EditOrder.razor",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\Components\\Pages\\EditOrder.razor",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\Components\\Pages\\EditOrder.razor",
@@ -114,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "AddOrder.razor",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\Components\\Pages\\AddOrder.razor",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\Components\\Pages\\AddOrder.razor",
@@ -126,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Orders.razor",
               "DocumentMoniker": "C:\\Users\\nisil\\Desktop\\IPT\\IPT102\\LaundryBlazorWeb\\Components\\Pages\\Orders.razor",
               "RelativeDocumentMoniker": "LaundryBlazorWeb\\Components\\Pages\\Orders.razor",
@@ -138,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\LaundryManagement\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Mga sawi sa pag ibig\\OfiangaSolutionIPT102\\LaundryManagement\\MainWindow.xaml.cs",

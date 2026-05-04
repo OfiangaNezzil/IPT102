@@ -5,74 +5,218 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d">
 
-    <Grid Background="Transparent">
+    <Grid Background="#F3F6FB">
 
-        <Border Background="White"
-                Width="450"
-                Padding="30"
-                CornerRadius="10"
+        <!-- Main Card -->
+        <Border Width="520"
+                Padding="35"
+                Background="White"
+                CornerRadius="20"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center">
 
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20"
+                                  ShadowDepth="3"
+                                  Opacity="0.2"/>
+            </Border.Effect>
+
             <StackPanel>
 
+                <!-- Header -->
                 <TextBlock Text="Add Laundry Order"
-                           FontSize="22"
-                           FontWeight="Bold"
-                           Margin="0 0 0 20"
-                           HorizontalAlignment="Center"/>
+                           FontSize="28"
+                           FontWeight="SemiBold"
+                           Foreground="#1E293B"
+                           HorizontalAlignment="Center"
+                           Margin="0 0 0 30"/>
 
-                <TextBlock Text="Order ID"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 15"
-                         Text="{Binding OrderId}" />
+                <!-- Order ID -->
+                <TextBlock Text="Order ID"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
 
-                <TextBlock Text="Customer Name"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 15"
-                         Text="{Binding CustomerName}" />
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 18">
 
-                <TextBlock Text="Contact Number"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 15"
-                         Text="{Binding ContactNumber}" />
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding OrderId}"/>
+                </Border>
 
-                <TextBlock Text="Service Type"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 15"
-                         Text="{Binding ServiceType}" />
+                <!-- Customer Name -->
+                <TextBlock Text="Customer Name"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
 
-                <TextBlock Text="Weight (kg)"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 15"
-                         Text="{Binding WeightInKg}" />
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 18">
 
-                <TextBlock Text="Total Price"/>
-                <TextBox Height="35"
-                         Margin="0 5 0 20"
-                         Text="{Binding TotalPrice}" />
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding CustomerName}"/>
+                </Border>
 
+                <!-- Contact Number -->
+                <TextBlock Text="Contact Number"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
+
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 18">
+
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding ContactNumber}"/>
+                </Border>
+
+                <!-- Service Type -->
+                <TextBlock Text="Service Type"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
+
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 18">
+
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding ServiceType}"/>
+                </Border>
+
+                <!-- Weight -->
+                <TextBlock Text="Weight (kg)"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
+
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 18">
+
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding WeightInKg}"/>
+                </Border>
+
+                <!-- Total Price -->
+                <TextBlock Text="Total Price"
+                           FontWeight="SemiBold"
+                           Foreground="#475569"
+                           Margin="0 0 0 5"/>
+
+                <Border Background="#F8FAFC"
+                        CornerRadius="10"
+                        BorderBrush="#CBD5E1"
+                        BorderThickness="1"
+                        Margin="0 0 0 30">
+
+                    <TextBox Height="40"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             Padding="12 8"
+                             FontSize="14"
+                             Text="{Binding TotalPrice}"/>
+                </Border>
+
+                <!-- Buttons -->
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Center">
 
+                    <!-- Save Button -->
                     <Button Content="Save"
-                            Width="120"
-                            Height="40"
-                            Background="#4CAF50"
+                            Width="150"
+                            Height="45"
+                            Margin="0 0 12 0"
+                            FontWeight="SemiBold"
+                            FontSize="14"
                             Foreground="White"
-                            Margin="0 0 10 0"
-                            Command="{Binding SaveCommand}" />
+                            Background="#2563EB"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Command="{Binding SaveCommand}">
 
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}"
+                                                    CornerRadius="10">
+                                                <ContentPresenter HorizontalAlignment="Center"
+                                                                  VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                    <!-- Back Button -->
                     <Button Content="Back"
-                            Width="120"
-                            Height="40"
-                            Background="#9E9E9E"
-                            Foreground="White"
-                            Command="{Binding BackCommand}" />
+                            Width="150"
+                            Height="45"
+                            FontWeight="SemiBold"
+                            FontSize="14"
+                            Foreground="#1E293B"
+                            Background="#E2E8F0"
+                            BorderThickness="0"
+                            Cursor="Hand"
+                            Command="{Binding BackCommand}">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}"
+                                                    CornerRadius="10">
+                                                <ContentPresenter HorizontalAlignment="Center"
+                                                                  VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
                 </StackPanel>
 
             </StackPanel>
-
         </Border>
     </Grid>
 </UserControl>

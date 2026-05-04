@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:LaundryManagement.Views"
         mc:Ignorable="d"
         Title="LaundryManagement" Height="450" Width="800">
-    <Grid Background="#F4F6F9">
+    <Grid Background="#DCEEFF">
         <ContentControl Content="{Binding CurrentView}" />
     </Grid>
 </Window>
